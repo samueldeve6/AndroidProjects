@@ -1,0 +1,107 @@
+﻿  tuplasDos.cpp
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(236): warning C4244: 'inicializando': conversión de '_Ty' a '_Ty'; posible pérdida de datos
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty=float
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(357): note: vea la referencia a la creación de instancias de plantilla de función 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' que se está compilando
+          with
+          [
+              _This=float,
+              _Ty=double,
+              _Other=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(358): note: vea la referencia a la creación de instancias de plantilla de función 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' que se está compilando
+          with
+          [
+              _This=float,
+              _Ty=double,
+              _Other=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(357): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<float>::tuple<std::_Exact_args_t,_Ty,,0>(_Tag,_This2 &&)' que se está compilando
+          with
+          [
+              _Ty=double,
+              _Tag=std::_Exact_args_t,
+              _This2=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(357): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<float>::tuple<std::_Exact_args_t,_Ty,,0>(_Tag,_This2 &&)' que se está compilando
+          with
+          [
+              _Ty=double,
+              _Tag=std::_Exact_args_t,
+              _This2=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(357): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<bool,float>::tuple<std::_Exact_args_t,_Ty,double,0>(_Tag,_This2 &&,double &&)' que se está compilando
+          with
+          [
+              _Ty=bool,
+              _Tag=std::_Exact_args_t,
+              _This2=bool
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(357): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<bool,float>::tuple<std::_Exact_args_t,_Ty,double,0>(_Tag,_This2 &&,double &&)' que se está compilando
+          with
+          [
+              _Ty=bool,
+              _Tag=std::_Exact_args_t,
+              _This2=bool
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(357): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<char,bool,float>::tuple<std::_Exact_args_t,_Ty,bool,double,0>(_Tag,_This2 &&,bool &&,double &&)' que se está compilando
+          with
+          [
+              _Ty=char,
+              _Tag=std::_Exact_args_t,
+              _This2=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(357): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<char,bool,float>::tuple<std::_Exact_args_t,_Ty,bool,double,0>(_Tag,_This2 &&,bool &&,double &&)' que se está compilando
+          with
+          [
+              _Ty=char,
+              _Tag=std::_Exact_args_t,
+              _This2=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(1035): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<int,char,bool,float>::tuple<std::_Exact_args_t,int,char,bool,double,0>(_Tag,_This2 &&,char &&,bool &&,double &&)' que se está compilando
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(1035): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<int,char,bool,float>::tuple<std::_Exact_args_t,int,char,bool,double,0>(_Tag,_This2 &&,char &&,bool &&,double &&)' que se está compilando
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(372): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<int,char,bool,float>::tuple<std::_Unpack_tuple_t,_Ty,0,1,2,3,0>(_Tag,_Tpl &&,std::integer_sequence<unsigned int,0,1,2,3>)' que se está compilando
+          with
+          [
+              _Ty=std::tuple<int,char,bool,double>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<int,char,bool,double>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(372): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<int,char,bool,float>::tuple<std::_Unpack_tuple_t,_Ty,0,1,2,3,0>(_Tag,_Tpl &&,std::integer_sequence<unsigned int,0,1,2,3>)' que se está compilando
+          with
+          [
+              _Ty=std::tuple<int,char,bool,double>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<int,char,bool,double>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(516): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<int,char,bool,float>::tuple<std::_Unpack_tuple_t,std::tuple<int,char,bool,double>,0>(_Tag,_Tpl &&)' que se está compilando
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<int,char,bool,double>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(516): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<int,char,bool,float>::tuple<std::_Unpack_tuple_t,std::tuple<int,char,bool,double>,0>(_Tag,_Tpl &&)' que se está compilando
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<int,char,bool,double>
+          ]
+  c:\users\usuario\desktop\proyectos cpp\pruebavisualstudio\tuplas 2\tuplasdos\tuplasdos.cpp(13): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<int,char,bool,float>::tuple<int,char,bool,double,0>(std::tuple<int,char,bool,double> &&) noexcept' que se está compilando
+  c:\users\usuario\desktop\proyectos cpp\pruebavisualstudio\tuplas 2\tuplasdos\tuplasdos.cpp(13): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<int,char,bool,float>::tuple<int,char,bool,double,0>(std::tuple<int,char,bool,double> &&) noexcept' que se está compilando
+  tuplasDos.vcxproj -> C:\Users\Usuario\Desktop\Proyectos cpp\PruebaVisualStudio\tuplas 2\tuplasDos\Debug\tuplasDos.exe

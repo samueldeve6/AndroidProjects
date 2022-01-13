@@ -1,0 +1,88 @@
+﻿  Tuplas.cpp
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(785): warning C4244: '=': conversión de '_Ty' a 'float'; posible pérdida de datos
+          with
+          [
+              _Ty=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(784): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<float &> &std::tuple<float &>::operator =<double,0>(std::tuple<double> &&) noexcept' que se está compilando
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(786): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<float &> &std::tuple<float &>::operator =<double,0>(std::tuple<double> &&) noexcept' que se está compilando
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(784): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<char &,float &> &std::tuple<char &,float &>::operator =<char,double,0>(std::tuple<char,double> &&) noexcept' que se está compilando
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(786): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<char &,float &> &std::tuple<char &,float &>::operator =<char,double,0>(std::tuple<char,double> &&) noexcept' que se está compilando
+  c:\users\usuario\desktop\proyectos cpp\pruebavisualstudio\tuplas\tuplas\tuplas.cpp(17): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<int &,char &,float &> &std::tuple<int &,char &,float &>::operator =<int,char,double,0>(std::tuple<int,char,double> &&) noexcept' que se está compilando
+  c:\users\usuario\desktop\proyectos cpp\pruebavisualstudio\tuplas\tuplas\tuplas.cpp(17): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<int &,char &,float &> &std::tuple<int &,char &,float &>::operator =<int,char,double,0>(std::tuple<int,char,double> &&) noexcept' que se está compilando
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(236): warning C4244: 'inicializando': conversión de '_Ty' a '_Ty'; posible pérdida de datos
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty=float
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(357): note: vea la referencia a la creación de instancias de plantilla de función 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' que se está compilando
+          with
+          [
+              _This=float,
+              _Ty=double,
+              _Other=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(358): note: vea la referencia a la creación de instancias de plantilla de función 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' que se está compilando
+          with
+          [
+              _This=float,
+              _Ty=double,
+              _Other=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(357): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<float>::tuple<std::_Exact_args_t,_Ty,,0>(_Tag,_This2 &&)' que se está compilando
+          with
+          [
+              _Ty=double,
+              _Tag=std::_Exact_args_t,
+              _This2=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(357): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<float>::tuple<std::_Exact_args_t,_Ty,,0>(_Tag,_This2 &&)' que se está compilando
+          with
+          [
+              _Ty=double,
+              _Tag=std::_Exact_args_t,
+              _This2=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(357): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<char,float>::tuple<std::_Exact_args_t,_Ty,double,0>(_Tag,_This2 &&,double &&)' que se está compilando
+          with
+          [
+              _Ty=char,
+              _Tag=std::_Exact_args_t,
+              _This2=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(357): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<char,float>::tuple<std::_Exact_args_t,_Ty,double,0>(_Tag,_This2 &&,double &&)' que se está compilando
+          with
+          [
+              _Ty=char,
+              _Tag=std::_Exact_args_t,
+              _This2=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(468): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<int,char,float>::tuple<std::_Exact_args_t,_Ty,char,double,0>(_Tag,_This2 &&,char &&,double &&)' que se está compilando
+          with
+          [
+              _Ty=int,
+              _Tag=std::_Exact_args_t,
+              _This2=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\tuple(468): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<int,char,float>::tuple<std::_Exact_args_t,_Ty,char,double,0>(_Tag,_This2 &&,char &&,double &&)' que se está compilando
+          with
+          [
+              _Ty=int,
+              _Tag=std::_Exact_args_t,
+              _This2=int
+          ]
+  c:\users\usuario\desktop\proyectos cpp\pruebavisualstudio\tuplas\tuplas\tuplas.cpp(8): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<int,char,float>::tuple<int,char,double,0>(_This2 &&,char &&,double &&) noexcept' que se está compilando
+          with
+          [
+              _This2=int
+          ]
+  c:\users\usuario\desktop\proyectos cpp\pruebavisualstudio\tuplas\tuplas\tuplas.cpp(8): note: vea la referencia a la creación de instancias de plantilla de función 'std::tuple<int,char,float>::tuple<int,char,double,0>(_This2 &&,char &&,double &&) noexcept' que se está compilando
+          with
+          [
+              _This2=int
+          ]
+  Tuplas.vcxproj -> C:\Users\Usuario\Desktop\Proyectos cpp\PruebaVisualStudio\tuplas\Tuplas\Debug\Tuplas.exe
